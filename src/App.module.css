@@ -1,0 +1,31 @@
+.container,
+.container3 {
+  align-items: center;
+  background-color: blanchedalmond;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  left: 400px;
+}
+.container2 {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.nameList {
+  color: gold;
+  display: inlin;
+  margin-right: 20px;
+  background-color: green;
+  font-size: 20px;
+  padding: 8px 8px 8px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container3 {
+  top: 90px;
+  left: 400px;
+}

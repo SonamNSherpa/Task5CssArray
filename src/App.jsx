@@ -8,7 +8,25 @@ function App() {
 
   return (
     <>
+      <div className={styles.container}>
+        <ul className={styles.container2}>
+          {names.map((name, index) => (
+            <li key={index} className={styles.nameList}>
+              {name}
+            </li>
+          ))}
+        </ul>
+      </div>
 
+      <div className={styles.container3}>
+        <ul className={styles.container2}>
+          {address.map((address, index) => (
+            <li key={index} className={styles.nameList}>
+              {address}
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   );
 }
